@@ -80,8 +80,7 @@
     "stylelint-order": "^4.1.0"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "pre-push": ". ./test-around"
+    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
